@@ -1,0 +1,19 @@
+title: Mail Pathway
+email: web.art@adriandiaz.ca
+description: Mail redirect
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mail.adriandiaz.ca" # the base hostname & protocol for your site
+                              # http://adriandiaz.ca
+                              # http://localhost:4000
+twitter_username: textplanes
+github_username:  adriandgr
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+include: ["_pages"]
+permalink: /:categories/:title/
